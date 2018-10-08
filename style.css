@@ -1,0 +1,56 @@
+body{
+    background-color: #a9d0da;
+    text-align: center;
+    position: relative;
+}
+h1 {
+    font-family: 'Permanent Marker', cursive;
+    margin: 32px;
+}
+.container{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.card{
+    max-width: 520px;
+}
+.alpha-keys{
+    width: 52px;
+}
+.space-key{
+    width: 100px;
+    
+}
+.card-body{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.key-container{
+    position: relative;
+}
+p{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-family: 'Arvo', serif;
+    font-weight: bold;
+}
+li{
+    height: 98px;
+    border: none!important;
+    word-break: break-all;
+}
+ul{
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    border: 1px solid rgba(0,0,0,.125);
+    word-break: break-all;
+    
+}
+.key-container{
+    cursor: pointer;
+}
